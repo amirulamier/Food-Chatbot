@@ -1,86 +1,12 @@
-{
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hello",
-        "Hey",
-        "Good day",
-        "Is anyone there?",
-        "Hi there"
-      ],
-      "responses": [
-        "Hello! How can I help you with GrabFood today?",
-        "Hi! What can I assist you with regarding your order?"
-      ]
-    },
-    {
-      "tag": "place_order",
-      "patterns": [
-        "How do I place an order?",
-        "How can I order food on GrabFood?",
-        "Steps to order food",
-        "I want to order food",
-        "How do I make an order?"
-      ],
-      "responses": [
-        "You can place an order by selecting a restaurant, adding items to your cart, and checking out.",
-        "Simply browse restaurants, choose your meals, and confirm payment to place an order."
-      ]
-    },
-    {
-      "tag": "payment_methods",
-      "patterns": [
-        "What payment methods are available?",
-        "How can I pay?",
-        "Do you accept cash?",
-        "Can I use e-wallet?",
-        "What are the payment options?"
-      ],
-      "responses": [
-        "GrabFood supports cash, credit/debit cards, and e-wallets.",
-        "You can pay using cash, cards, or supported GrabPay services."
-      ]
-    },
-    {
-      "tag": "delivery_time",
-      "patterns": [
-        "How long does delivery take?",
-        "When will my food arrive?",
-        "Delivery time",
-        "How fast is GrabFood delivery?"
-      ],
-      "responses": [
-        "Delivery usually takes between 30 to 60 minutes depending on distance and restaurant preparation time.",
-        "Estimated delivery time will be shown before you confirm your order."
-      ]
-    },
-    {
-      "tag": "refund_policy",
-      "patterns": [
-        "How do I get a refund?",
-        "Refund policy",
-        "Can I get my money back?",
-        "Request a refund"
-      ],
-      "responses": [
-        "Refunds are provided if there is an issue with your order, such as missing or incorrect items.",
-        "You can request a refund through the Grab app under order history."
-      ]
-    },
-    {
-      "tag": "contact_support",
-      "patterns": [
-        "How do I contact support?",
-        "Customer service",
-        "Help center",
-        "I need help"
-      ],
-      "responses": [
-        "You can contact Grab support through the Help Center in the app.",
-        "Grab customer support is available 24/7 to assist you."
-      ]
-    }
-  ]
-}
+[
+    {"question": "How do I place an order?", "answer": "You can browse the Menu tab, add items to your cart, and proceed to payment."},
+    {"question": "What payment methods are available?", "answer": "We support Cash, Credit/Debit Card, and E-Wallet (simulated)."},
+    {"question": "Can I cancel my order?", "answer": "Orders cannot be cancelled once confirmed, since this is a simulated system."},
+    {"question": "Do you deliver food?", "answer": "No, this system is a prototype for demonstration purposes only."},
+    {"question": "How do I know my order is successful?", "answer": "After confirming payment, a success message will appear and your order will be prepared."},
+    {"question": "What foods are available?", "answer": "You can view all available food items in the Menu tab with images and prices."},
+    {"question": "Can I order multiple items?", "answer": "Yes! You can add multiple items to your cart before proceeding to payment."},
+    {"question": "Is the payment real?", "answer": "No, the payment is simulated for demonstration purposes only."},
+    {"question": "How can I remove items from the cart?", "answer": "Currently, the system only allows adding items. Cart management is for demonstration."},
+    {"question": "Is this system connected to GrabFood?", "answer": "No, this is a standalone prototype for academic purposes only."}
+]
